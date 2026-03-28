@@ -1,0 +1,16 @@
+/*
+A Doubly Linked List (DLL) is a type of linked list 
+where each node contains three parts:
+
+Previous pointer  – points to the previous node
+Data              – the value
+Next pointer      – points to the next node
+
+        [Prev | Data | Next]
+
+NULL  ← [10] ⇄ [20] ⇄ [30] →  NULL
+
+Traversal possible in both directions (forward & backward)
+Easy insertion and deletion compared to singly linked list
+Requires extra memory for the previous pointer
+*/
